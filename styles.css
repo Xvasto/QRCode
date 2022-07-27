@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+    width: 20%;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    
+}
+
+.container-text{
+    width: 90%;
+    margin: auto;
+    font-family: Outfit, sans-serif;
+    font-size: small;
+}
+.container-text p{
+    color: hsl(220, 15%, 55%);
+    
+}
+
+#qrcode{
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .container{
+        width: 75%;
+        font-size: medium;
+    }
+    
+  }
